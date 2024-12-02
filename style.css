@@ -1,8 +1,21 @@
 body {
-    background-size: 1920px 1080px;
-    background-image: url("22001.jpg");
-    margin: 0;
-    height: 100vh;
+    /* Lien vers votre image */
+    background-image: url('22001.jpg');
+    
+    /* Adapter l'image à la taille de l'écran */
+    background-size: cover;
+    
+    /* Centrer l'image dans la fenêtre */
+    background-position: center center;
+    
+    /* Garder l'image fixe lors du défilement */
+    background-attachment: fixed;
+    
+    /* Empêcher la répétition de l'image */
+    background-repeat: no-repeat;
+    
+    /* Fixer la couleur de fond (au cas où l'image prend du temps à charger) */
+    background-color: #f0f0f0;
 }
 
 .center {
